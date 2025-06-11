@@ -29,5 +29,5 @@ jobs:
         run: npm install
 
       # Run tests
-      - name: Run url tests
-        run: npx jest tests/url-checker.test.ts
+      - name: Run password strength tests
+        run: npx jest tests/function.test.ts
