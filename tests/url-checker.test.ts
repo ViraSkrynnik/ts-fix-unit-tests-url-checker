@@ -25,7 +25,7 @@ describe('LinkChecker', () => {
     // FIXME:
 
     test('should return true for valid URL with port', () => {
-       expect(linkChecker.isValidUrl('http://www.example.com:8080')).toBeTruthy();
+        expect(linkChecker.isValidUrl('http://www.example.com:8080')).toBeTruthy();
     })
 
     test('should return true for valid URL with path', () => {
